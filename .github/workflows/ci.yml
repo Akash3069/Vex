@@ -55,7 +55,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.email "athengumparampil@gmail.com"
-        git config --global user.name "Akash3069"
+        git config --global user.name "Akash"
         git add helm/spring-helm/values.yaml
         git commit -m "Update tag in Helm chart"
         git push
